@@ -14,6 +14,7 @@ RUN micromamba create \
     && micromamba clean --all --yes
 
 ENV PATH=/opt/conda/envs/tprcp216/bin:$PATH
+ENV IN_RCP216_CONTAINER=1
 
 WORKDIR /workspace
 
