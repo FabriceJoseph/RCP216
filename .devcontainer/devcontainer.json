@@ -1,0 +1,12 @@
+{
+  "name": "RCP216",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "rcp216",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+    }
+  }
+}
