@@ -10,7 +10,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends make \
     && rm -rf /var/lib/apt/lists/*
 
-USER $MAMBA_USER
+
+USER $MAMBA_USER:1000
 
 WORKDIR /workspace
 

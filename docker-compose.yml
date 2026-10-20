@@ -9,5 +9,6 @@ services:
       - .:/workspace
     ports:
       - "8888:8888"
+      - "4040:4040"
     stdin_open: true
     tty: true

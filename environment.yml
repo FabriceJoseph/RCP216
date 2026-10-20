@@ -354,7 +354,7 @@ dependencies:
   - pip:
       - graphframes-py==0.12.2
       - loguru==0.7.3
-      - pyspark==3.5.9
-      - spark-nlp==6.4.2
-      - sparkpl==0.1.2
+      - pyspark==4.2.0
+      - spark-nlp==7.0.0
+      - sparkpl==2.0.1
       - sseclient-py==1.9.0
